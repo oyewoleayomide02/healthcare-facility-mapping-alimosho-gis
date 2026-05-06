@@ -42,9 +42,9 @@ Data was then locally extracted from Excel Workbook and GRID3 into QGIS for tran
 ## Modelling
 Model built
 
-Model builder                                |                  Entity Relationship Diagram
-:-------------------------------------------:|:-----------------------------------------------------:
-![](existing_healthcare_facilities.png)      |       ![](existing_healthcare_facilities.png)
+Model builder                                                 |                  Entity Relationship Diagram
+:------------------------------------------------------------:|:------------------------------------------------------------------------:
+![](model.PNG)                                                |                 ![](entity_relationship_diagram.png)
 
 
 
