@@ -47,9 +47,20 @@ Model builder                                                 |                 
 ![](model.PNG)                                                |                 ![](entity_relationship_diagram.png)
 
 
-## Data Preprocessing
-Data Standardization: Convert all datasets to a common projection system (UTM Zone 31N, WGS 84) and EPSG code.
-Ensure consistent attribute formats across datasets (e.g., facility names, IDs).
+## Data Transformation
+All datasets were coverted to a common projection system (UTM Zone 31N, WGS 84) and EPSG code and integrated into the QGIS software to develop a spatial database using the SpatialLite.
+
+Existing Healthcare Table                                                       |                  Road Table
+:------------------------------------------------------------------------------:|:--------------------------------------------------------------------:
+![](existing_healthcare_facilities.png)                                         |                 ![](road.png)
+
+
+Model builder                                                 |                  Entity Relationship Diagram
+:------------------------------------------------------------:|:--------------------------------------------------------------------:
+![](model.PNG)                                                |                 ![](entity_relationship_diagram.png)
+Model builder                                                 |                  Entity Relationship Diagram
+:------------------------------------------------------------:|:--------------------------------------------------------------------:
+![](model.PNG)                                                |                 ![](entity_relationship_diagram.png)
 
 ## Data Analysis/Visualization
 Analysis was done using simple visuals since the tables have been perfectly modelled together.
@@ -61,6 +72,14 @@ Analysis was done using simple visuals since the tables have been perfectly mode
 - Weighted overlay Analysis (Raster Calculator)
 
 
+## Conclusions/Recommendations
+- Alagbado/Kollinton ward requires urgent attention as it has zero healthcare facilities and should be prioritized for the construction of new health facilities.
+- Ikotun ward has the highest concentration of healthcare facilities (24) and can serve as a model for healthcare planning in other wards.
+- The government should invest in improving road networks to enhance accessibility to existing healthcare facilities, particularly in underserved communities.
+
+My focus is to deliver actionable insights that can drive real decisions and improvements, and not just to build reports and maps.
+
+Thank you. 😊
 
 
 
