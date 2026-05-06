@@ -39,15 +39,26 @@ Data was normalised that is, the information was categorically seperated into di
 
 Data was then locally extracted from Excel Workbook and GRID3 into QGIS for transformation, analysis and visualization.
 
-## Modelling
-Model built
+## Data Model Design
+The data required for this analysis are located in various spatial and attribute tables. Therefore, appropriate modelling is required. A relational database schema is designed using SpatiaLite in QGIS, with the Ward Table representing the central fact table containing all core ward data, and to which other dimension tables are modelled and connected using common key columns.
 
 Model builder                                                 |                  Entity Relationship Diagram
 :------------------------------------------------------------:|:--------------------------------------------------------------------:
 ![](model.PNG)                                                |                 ![](entity_relationship_diagram.png)
 
 
+## Data Preprocessing
+Data Standardization: Convert all datasets to a common projection system (UTM Zone 31N, WGS 84) and EPSG code.
+Ensure consistent attribute formats across datasets (e.g., facility names, IDs).
 
+## Data Analysis/Visualization
+Analysis was done using simple visuals since the tables have been perfectly modelled together.
+- Buffer Analysis
+- Rasterize and Polygonize (Vector2Raster conversion & vice versa)
+- Proximity (Raster Distance) Analysis
+- Suitability Analysis using Analytical Hierarchy Process
+- Reclassification Analysis (Raster Calculator)
+- Weighted overlay Analysis (Raster Calculator)
 
 
 
